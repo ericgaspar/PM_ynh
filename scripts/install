@@ -104,6 +104,7 @@ ynh_script_progression --message="Building $app... (this will take some time and
 
 pushd "$final_path" || ynh_die
 	ynh_use_nodejs
+	chown -R 998:998 "/var/www/protonmail/.npm"
 	exec_as $app env PATH=$PATH npm install #-g electron --unsafe-perm=true --allow-root
 popd || ynh_die
 
