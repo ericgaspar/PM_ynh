@@ -1,4 +1,4 @@
-# CodiMD pour YunoHost
+# ProtonMail pour YunoHost
 
 [![Niveau d'intégration](https://dash.yunohost.org/integration/codimd.svg)](https://dash.yunohost.org/appci/app/codimd) ![](https://ci-apps.yunohost.org/ci/badges/codimd.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/codimd.maintain.svg)  
 [![Installer CodiMD avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=codimd)
@@ -45,7 +45,7 @@ Vous pouvez configurer CodiMD en modifiant le fichier `/var/www/codimd/config.js
 ## Liens
 
  * Signaler un bug : https://github.com/YunoHost-Apps/codimd_ynh/issues
- * Dépôt de l'application principale : https://github.com/codimd/server/
+ * Dépôt de l'application principale : https://github.com/ProtonMail/WebClient
  * Site web YunoHost : https://yunohost.org/
 
 ---

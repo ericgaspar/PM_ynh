@@ -1,21 +1,21 @@
 {
-    "name": "CodiMD",
-    "id": "codimd",
+    "name": "ProtonMail",
+    "id": "protonmail",
     "packaging_format": 1,
     "description": {
         "en": "Collaborative editor to work on notes written in Markdown",
         "fr": "Éditeur collaboratif pour travailler sur des notes en Markdown"
     },
-    "version": "1.6.0~ynh3",
-    "url": "https://github.com/codimd/server",
-    "license": "AGPL-3.0-only",
+    "version": "1.6.0~ynh1",
+    "url": "https://github.com/ProtonMail/WebClient",
+    "license": "MIT",
     "maintainer": {
-        "name": "liberodark"
+        "name": ""
     },
     "requirements": {
         "yunohost": ">= 3.8.1"
     },
-    "multi_instance": true,
+    "multi_instance": false,
     "services": [
         "nginx"
     ],
@@ -25,10 +25,10 @@
                 "name": "domain",
                 "type": "domain",
                 "ask": {
-                    "en": "Choose a domain name for CodiMD",
-                    "fr": "Choisissez un nom de domaine pour CodiMD"
+                    "en": "Choose a domain name for ProtonMail",
+                    "fr": "Choisissez un nom de domaine pour ProtonMail"
                 },
-                "example": "codimd.domain.org"
+                "example": "domain.org"
             },
             {
                 "name": "is_public",

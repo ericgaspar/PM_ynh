@@ -1,6 +1,5 @@
 [Unit]
 Description=CodiMD: collaborative Markdown notes
-Documentation=https://github.com/codimd/server
 After=network.target postgresql.service
 
 [Service]
